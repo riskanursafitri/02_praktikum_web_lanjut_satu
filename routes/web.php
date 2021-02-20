@@ -21,6 +21,10 @@ Route::get('/', function () {
     echo "Selamat Datang";
 });
 
-Route::get('/articles/{name?}', function ($name = 'Riska Nur Safitri') {
-    return $name;
+Route::get('/about', function () {
+    echo "Riska Nur Safitri 1941720073";
+});
+
+Route::get('/articles/{id}', function ($id) {
+    echo "Halaman Artikel dengan ID" .$id;
 });
