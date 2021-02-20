@@ -21,10 +21,10 @@ use Illuminate\Support\Facades\Route;
 //    echo "Selamat Datang";
 //});
 
-Route::get('/about', function () {
-    return "Riska Nur Safitri 1941720073";
-});
-
-//Route::get('/articles/{id}', function ($id) {
-//   echo "Halaman Artikel dengan ID" .$id;
+//Route::get('/about', function () {
+//    return "Riska Nur Safitri 1941720073";
 //});
+
+Route::get('/articles/{id}', function ($id) {
+   echo "Halaman Artikel dengan ID" .$id;
+});
