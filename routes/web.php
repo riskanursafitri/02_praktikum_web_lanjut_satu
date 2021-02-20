@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Route;
 //});
 
 Route::get('/about', function () {
-    echo "Riska Nur Safitri 1941720073";
+    return "Riska Nur Safitri 1941720073";
 });
 
 //Route::get('/articles/{id}', function ($id) {
