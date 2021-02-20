@@ -17,12 +17,8 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 
-Route::get('/', function ($id) {
+Route::get('/', function () {
     echo "Selamat Datang";
-});
-
-Route::get('/', function ($id) {
-    echo "1941720073";
 });
 
 Route::get('/articles/{name?}', function ($name = 'Riska Nur Safitri') {
