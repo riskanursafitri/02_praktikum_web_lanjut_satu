@@ -13,17 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
+//Route::get('/', function () {
 //    return view('welcome');
 //});
 
-//Route::get('/', function () {
-//    echo "Selamat Datang";
-//});
+Route::get('/', function () {
+    echo "Selamat Datang";
+});
 
-//Route::get('/about', function () {
-//    return "Riska Nur Safitri 1941720073";
-//});
+Route::get('/about', function () {
+    return "Riska Nur Safitri 1941720073";
+});
 
 Route::get('/articles/{id}', function ($id) {
    echo "Halaman Artikel dengan ID" .$id;
