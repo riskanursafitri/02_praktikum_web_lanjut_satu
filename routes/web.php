@@ -20,3 +20,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function ($id) {
     echo "Selamat Datang";
 });
+
+Route::get('/', function ($id) {
+    echo "1941720073";
+});
+
+Route::get('/articles/{name?}', function ($name = 'Riska Nur Safitri') {
+    return $name;
+});
